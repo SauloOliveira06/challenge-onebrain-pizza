@@ -49,7 +49,7 @@ export function Order({ orders }) {
               <OrderItem>
                 <div>1</div>
                 <div>{order.name}</div>
-                <div>{order.price}</div>
+                <div>{order.bonus}</div>
               </OrderItem>
             </OrderContainer>
           ))}
